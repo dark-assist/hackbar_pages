@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GHOST-SH-bar</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #282C34;
+      color: #8a92a5;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-top: 15px;
+      background: linear-gradient(to right, #185ef0, #30CFD0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1rem;
+      color: #b0b8c7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    .about h2, .features h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, #f0183c, #d03030);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .about p {
+      text-align: center;
+      line-height: 1.6;
+      font-size: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .feature-card {
+      background: #282C34;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: -4px -4px 12px #353944, 4px 4px 12px #1f2127;
+      transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      background: linear-gradient(to right, #30CFD0, #185ef0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f2127;
+      color: #8a92a5;
+      font-size: 0.9rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/dark-assist/Cloudpc/refs/heads/main/IMG_20241209_165306_529.jpeg" alt="GHHC Logo">
+    <h1>GHOST-SH-bar</h1>
+    <p>A Web Penetration Tool for Android Devices</p>
+  </header>
+
+  <div class="container">
+
+    <!-- About Section -->
+    <section class="about">
+      <h2>About GHOST-SH-bar</h2>
+      <p>
+        <b>GHOST-SH-bar</b> is a Web Penetration tool built for Android Devices where you can perform 
+        SQL Injection, Local File Inclusion (LFI), Cross Site Scripting (XSS), Shell Uploading, 
+        Defacement & many more.  
+        <br><br>
+        It is a modified version of <b>Anon HackBar</b>, originally developed by MasterJeo and later 
+        modified by SANATANI_x_ANONYMOUS & Ghost Op of SANATANI HACKERS Community.
+      </p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>🔍 SQL Injection</h3>
+          <p>Test and exploit vulnerable SQL queries in websites.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📂 Local File Inclusion</h3>
+          <p>Identify and exploit LFI vulnerabilities in web applications.</p>
+        </div>
+        <div class="feature-card">
+          <h3>💻 XSS Attacks</h3>
+          <p>Perform Cross Site Scripting attacks to check input validation flaws.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📤 Shell Upload</h3>
+          <p>Upload shells to compromised servers and gain remote access.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎨 Defacement</h3>
+          <p>Replace vulnerable website pages with custom defacements.</p>
+        </div>
+        <div class="feature-card">
+          <h3>⚡ More Tools</h3>
+          <p>Additional penetration testing utilities included for Android devices.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2025 GHOST-SH-bar | Developed by GHOST & SANATANI_x_ANONYMOUS.
+  </footer>
+
+</body>
+</html>

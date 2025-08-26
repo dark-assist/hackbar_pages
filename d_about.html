@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST-SH-bar</title>
+    <!-- 
+      This style block contains all the CSS for the website, precisely
+      tuned to replicate the look of the provided screenshot.
+    -->
+    <style>
+        /* Using Roboto Mono to match the monospace, code-like font in the screenshot. 
+          The font-family stack provides fallbacks.
+        */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+        /* Global body and container styles */
+        body {
+            background-color: #000;
+            color: #d1d1d1;
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 500px; /* Constrain the width to match the mobile view */
+            width: 100%;
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        /* Styling for text elements to match the screenshot's sizes and spacing */
+        h1 {
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        .header-text {
+            font-size: 0.8rem;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .facebook-link {
+            font-size: 0.8rem;
+            color: #4b8dfa;
+            text-decoration: none;
+            margin: 0.5rem 0 1rem;
+            display: block;
+        }
+        
+        .facebook-link:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: 0.8rem;
+            line-height: 1.4;
+            margin: 1rem 0;
+            text-align: left;
+        }
+
+        /* Styling for section headings with lines above and below */
+        .section-title {
+            color: #4b8dfa;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-top: 2px solid #4b8dfa;
+            border-bottom: 2px solid #4b8dfa;
+            padding: 5px 0;
+            margin: 20px auto 10px;
+            display: inline-block;
+        }
+
+        /* Styling for the lists of names and sources */
+        .list-section {
+            text-align: left;
+            margin: 0 0 20px;
+            padding: 0;
+        }
+
+        .list-item {
+            font-size: 0.8rem;
+            margin: 0.2rem 0;
+        }
+
+        .list-item strong {
+            color: #fff;
+        }
+
+        /* Specific styling for the license text to match the screenshot's density */
+        .license-text {
+            font-size: 0.6rem;
+            line-height: 1.3;
+            text-align: justify;
+            white-space: pre-wrap;
+            margin: 20px 0;
+        }
+        
+        .license-text p {
+            margin: 0.7rem 0;
+        }
+
+        /* Copyright footer styling */
+        .copyright {
+            margin-top: 30px;
+            font-size: 0.7rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header Section -->
+    <header>
+        <h1>GHOST-SH-bar</h1>
+        <p class="header-text">Based & Inspired by <br> Mozilla HackBar Addon</p>
+        <p class="header-text">Developed By <br> SANATANI_x_ANONYMOUS & Ghost Op</p>
+        <a href="https://www.instagram.com/sanatani_x_anonymous/" class="facebook-link" target="_blank">Official Instagram</a>
+    </header>
+
+    <p>GHOST-SH-bar is a web penetration tool built for android devices where one can use this tool for SQL Injection (SQLI), File Inclusion (LFI), Cross Site Scripting (XSS), Shell Uploading, Defacement and many more. Inspired by Mozilla HackBar Addon but with such more advance features.</p>
+
+    <!-- Special Thanks Section -->
+    <section>
+        <h2 class="section-title">SPECIAL THANKS TO</h2>
+        <div class="list-section">
+            <p class="list-item"><strong>Tayen Nguyen</strong>: For the project indicator library.</p>
+            <p class="list-item"><strong>Kaushik Dutta</strong>: For the resource code library.</p>
+            <p class="list-item"><strong>Rahul Yadav</strong>: For the toast size library.</p>
+            <p class="list-item"><strong>Morad Edwar</strong>: For the handler library.</p>
+            <p class="list-item"><strong>Javier Santos</strong>: For the database library.</p>
+            <p class="list-item"><strong>Christian de Angeles</strong>: For the custom-progressbar library.</p>
+            <p class="list-item"><strong>Sourabh Juter</strong>: For the Json Parsing library.</p>
+            <p class="list-item"><strong>Saulo Porras</strong>: For the auto-SQL queries.</p>
+            <p class="list-item"><strong>Jeo Dev</strong>: For the user-interface site.</p>
+            <p class="list-item"><strong>Anonym0us.0</strong>: For the support for the logo.</p>
+            <p class="list-item"><strong>Mozilla HackBar developer and modder for the queries.</strong></p>
+        </div>
+    </section>
+
+    <!-- Reference Sources Section -->
+    <section>
+        <h2 class="section-title">REFERENCE SOURCES</h2>
+        <div class="list-section">
+            <p><a href="https://github.com" target="_blank">github.com</a></p>
+            <p><a href="https://stackoverfl0w.com" target="_blank">stackoverfl0w.com</a></p>
+            <p><a href="https://expl0it-db.com" target="_blank">expl0it-db.com</a></p>
+            <p><a href="https://w3sch0ols.com" target="_blank">w3sch0ols.com</a></p>
+            <p><a href="https://yougetsignalone.com" target="_blank">yougetsignalone.com</a></p>
+            <p><a href="https://darkweb-tor.com" target="_blank">darkweb-tor.com</a></p>
+            <p><a href="https://owasp.org" target="_blank">owasp.org</a></p>
+            <p><a href="https://hackersploit.org" target="_blank">hackersploit.org</a></p>
+        </div>
+    </section>
+
+    <!-- License Section -->
+    <section>
+        <h2 class="section-title">LICENSE</h2>
+        <div class="license-text">
+            <p>Copyright © 2017 SANATANI_x_ANONYMOUS & Ghost Op<br>
+                All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+            <p>1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</p>
+            <p>2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</p>
+            <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="copyright">Copyright © 2025 SANATANI_x_ANONYMOUS & Ghost Op All rights reserved.</p>
+    </footer>
+
+</div>
+
+<!-- 
+  This script tag is included to show where JavaScript would go.
+  For this static page, no specific JavaScript is needed.
+-->
+<script>
+    // JavaScript code would go here to add interactivity, if needed.
+    // For this design, the page is static and doesn't require any JS.
+</script>
+
+</body>
+</html>
